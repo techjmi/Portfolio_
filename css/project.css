@@ -1,0 +1,44 @@
+#project {
+  /* background-color: blue; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 20px 10px 20px;
+}
+
+.project1 .theory {
+  /* display: flex; */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project1 h3 {
+  /* display: flex; */
+  text-align: center;
+  margin-right: 10px 10px 10px 10px;
+}
+
+@media screen and (max-width: 1186px) {
+
+
+  .project1 {
+    display: flex;
+    flex-direction: column;
+  }
+}

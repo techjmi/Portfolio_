@@ -1,0 +1,177 @@
+.navbar-brand-image {
+  width: 45px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  clip-path: circle(50%);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #333;
+}
+
+.Project {
+  text-align: center;
+  display: inline-block;
+  padding: 1vh 3vh;
+  margin-top: 4vh;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.Project:hover {
+  background-color: #0056b3;
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.8);
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.container1 {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+.container1 p {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thick-line {
+  border-top: 3px solid rgb(0, 0, 0);
+  width: 50px;
+  overflow: hidden;
+}
+
+.moreInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+span {
+  font-weight: bold;
+}
+
+.skill-button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.skill-container {
+  text-align: center;
+}
+
+.skill-button+.skill-button {
+  margin-left: 10px;
+}
+
+.ContactSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact {
+  padding: 20px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  margin-left: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  float: right;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group label,
+.form-group input,
+.form-group textarea {
+  margin-bottom: 10px;
+}
+
+#contact-form {
+  width: 60%;
+  margin-top: 30px;
+  padding: 20px;
+  padding-bottom: 20px;
+}
